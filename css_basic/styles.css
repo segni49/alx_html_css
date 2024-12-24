@@ -1,11 +1,14 @@
 
 body {
     display: flex;
+    background-color: green;
+    
 }
 main {
     display: flex;
     flex-direction: row;
     flex: auto;
+    color: red;
 }
 article {
     flex: 2;
