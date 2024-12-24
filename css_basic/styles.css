@@ -1,1 +1,18 @@
 
+body {
+    display: flex;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+article {
+    flex: 2;
+    overflow-y: auto;
+}
+aside {
+    flex: 1;
+    background-color: lightblue;
+    overflow-y: auto;
+}
