@@ -65,7 +65,7 @@ ul a:hover{
 .hero button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #FF6565;
+    background-color:  #FF6565;
     color: #fff;
     border: none;
     border-radius: 15px;
@@ -96,7 +96,205 @@ ul a:hover{
     text-align: center;
     width: 100vh;
     margin-top: 40vh;
+    padding-bottom: 40px;
 }
+
+           /* what we do section home page web site --- for mobile*/
+
+.what-we-do {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+ 
+}
+.what-we-do h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color:black;
+    text-align: center;
+    margin-top: 30px;
+}
+.what-we-do .what-we-do-text {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+    width: 100%;
+    padding-right: 30%;
+    padding-left: 30%;
+}
+
+.what-we-do-image {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 60px;
+   
+
+}
+.do-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.do2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.do3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.do4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+
+
+.what-we-do-image img {
+    text-align: center;
+    margin-top: 3rem;
+}
+.what-we-do-image h2{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.what-we-do-image p{
+    width: 20vw;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.our-result {
+    background-image:url(../images/headphones_hero_2.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    width:100%;
+}
+
+.our-result h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 30px;
+}
+.our-result p{
+    font-size: 18px;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 45px;
+    width: 100%;
+    padding-right: 30%;
+    padding-left: 30%;
+
+}
+.result-image {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin-top: 10vh;
+}
+.result-image img {
+    text-align: center;
+    margin-top: 3rem;
+    width: 100%;
+    white-space: wrap;
+    margin-bottom: 30px;
+
+}
+     /*contact-us */
+    
+     .contact-us h1 {
+        font-size: 40px;
+        font-weight: bold;
+        color: black;
+        text-align: center;
+        margin-top: 30px;
+     }
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    width: 100%;
+    height: 50vh;
+}
+
+form label {
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+    text-align: start;
+    margin-top: 20px;
+    
+}
+
+form input[type="text"], form input[type="email"] {
+    width: 25vw;
+    height: 2rem;
+    border: none;
+    border: 1px solid rgba(255, 219, 147, 0.133);
+    border-radius: 20px;
+    box-shadow: 0 -4px 0 0 #efcd93;
+    margin-top: 1rem;
+  
+}
+form button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 25px ;
+    margin-bottom: 30px ;
+    background-color: #FF6565;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    width: fit-content;
+    cursor: pointer;
+    text-align: center;
+    white-space: nowrap;
+    transition-delay: all 2s;
+
+}
+form button:hover {
+    transform: scale(1.2);
+}
+
+      
+     
   /** resposive home page web site --- for mobile**/
 
   
@@ -139,7 +337,16 @@ ul a:hover{
         height: 100vh;
         margin-top: 30vh;
     }
- 
+ .hero h1 {
+    width: 100%;
+    font-weight: bold;
+    font-size: 7vw;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    -left: 1vh;
+    padding-right: 1vh;
+    }
    .hero p {
     
     font-size: 3vw;
@@ -147,7 +354,7 @@ ul a:hover{
     text-align: center;
     flex-wrap: nowrap;
     }
-    
+    .hero
     .hero-1 p {
         font-size: 2vh;
         font-family: bold ;
@@ -155,7 +362,6 @@ ul a:hover{
         width: 100px; 
         margin: auto;
         margin-top: 30vh;
-        padding-bottom: 40px;
     }
     
     
@@ -246,9 +452,46 @@ ul a:hover{
         transform: translateY(1);
     }
   }
+   /* mobile--what we do section*/
+ .what-we-do-image {
+    display: block;
+    width: 100%;
+
+ }
 
     
   }
+  /* tablet -homepage*/
+@media screen and (min-width: 768px ) and (max-width: 2000px) {
+    .button-icon .menu-icon {
+        display: inline;
+    }
+  
+    .footer-for-desk {
+        display: none;
+    }
+    .result-image {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+        gap: 100px;
+        margin-top: 10vh;
+    }
+    .what-we-do-image {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+        gap: 60px;
+       
+    
+
+
+}   
+}
 
     
    
