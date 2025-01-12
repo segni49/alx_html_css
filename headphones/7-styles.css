@@ -141,29 +141,46 @@ ul a:hover{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    animation-name: scales;
+    animation-duration:2s ;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-direction: normal;
  
 }
-.do2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
- 
-}
-.do3 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 
+
+@keyframes scales {
+    0% {
+        transform: translateX(0);
+        transform: scale(1);
+     
+    }
+    25% {
+        transform: translateX(200px);
+        
+        transform: scale(1.1);
+    
+    }
+    50% {
+        transform: translateX(-200vw);
+        transform: scale(1.1);
+       
+    }
+    75% {
+        transform: translateX(0);
+        transform: scale(1);
+     
+    }
+    100% {
+        transform: translateX(0);
+        transform: scale(1);
+       
+    }
+    
 }
-.do4 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
- 
-}
+
 
 
 
@@ -183,6 +200,8 @@ ul a:hover{
     text-align: center;
     margin-bottom: 3rem;
 }
+
+
 .our-result {
     background-image:url(../images/headphones_hero_2.jpg) ;
     background-size: cover;
@@ -214,7 +233,7 @@ ul a:hover{
     padding-left: 30%;
 
 }
-.result-image {
+.result-image img {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -222,21 +241,52 @@ ul a:hover{
     flex-wrap: wrap;
     gap: 100px;
     margin-top: 10vh;
+    animation-name: scales1;
+    animation-duration:10s ;
+    animation-delay: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:infinite;
+    animation-fill-mode:forwards;
+    animation-direction: normal;
+ 
+
 }
-.pentagon {
-    width: 200px;
-    height: 200px ;
-    background-color:#FF6565 ;
-    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
-    margin-bottom: 40px;
-}
-.pentagon h2 {
-    font-size: 30px;
-    color: whitesmoke;
-    text-align: center;
-    margin-top: 3g rem;
-  
+
+@keyframes scales1 {
+    0% {
+        transform: translateX(0);
+        
    
+     
+    }
+    33% {
+        transform: translateX(150px) rotate(360deg);
+        
+    
+    
+    }
+    66% {
+        transform: translateX(-150px) rotate(-360deg);
+
+    }
+    
+    100% {
+        transform: translateX(0);
+       
+
+       
+    }
+
+  
+}
+
+.result-image img {
+    text-align: center;
+    margin-top: 3rem;
+    width: 100%;
+    white-space: wrap;
+    margin-bottom: 30px;
+
 }
      /*contact-us */
     
