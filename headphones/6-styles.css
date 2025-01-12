@@ -1,0 +1,535 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.homepage {
+    background-image: url(../images/headphones_hero_1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header {
+    display: flex;
+    flex-flow: row nowrap;
+   justify-content: space-between;
+   padding-top: 10px;
+
+}
+nav li {
+    display: inline-block;
+    align-items: center;
+    margin-right: 50px;
+    margin-top: 20px;
+    list-style-type: none;
+
+
+}
+
+ul a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+ul a:hover{
+    color: #FF6565;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    height: 100vh;
+    margin-top: 40vh;
+
+}
+
+.hero h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 30px;
+   
+}
+
+.hero p {
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+}
+
+.hero button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF6565;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    width: fit-content;
+    cursor: pointer;
+    text-align: center;
+    white-space: nowrap;
+}
+.hero button:hover {
+    transform: scale(1.2);
+}
+
+.hero a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+    white-space:nowrap;
+}
+.button-1 {
+    text-align: center;
+    margin-top: 10vh;
+}
+.hero-1 p {
+     font-size: 18px;
+    font-family: bold ;
+    text-align: center;
+    width: 100vh;
+    margin-top: 40vh;
+}
+
+           /* what we do section home page web site --- for mobile*/
+
+.what-we-do {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+ 
+}
+.what-we-do h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color:black;
+    text-align: center;
+    margin-top: 30px;
+}
+.what-we-do .what-we-do-text {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+    width: 100%;
+    padding-right: 30%;
+    padding-left: 30%;
+}
+
+.what-we-do-image {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 60px;
+   
+
+}
+.do-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.do2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.do3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.do4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+
+
+.what-we-do-image img {
+    text-align: center;
+    margin-top: 3rem;
+}
+.what-we-do-image h2{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.what-we-do-image p{
+    width: 20vw;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.our-result {
+    background-image:url(../images/headphones_hero_2.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    width:100%;
+}
+
+.our-result h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 30px;
+}
+.our-result p{
+    font-size: 18px;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 45px;
+    width: 100%;
+    padding-right: 30%;
+    padding-left: 30%;
+
+}
+.result-image {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin-top: 10vh;
+}
+.pentagon {
+    width: 200px;
+    height: 200px ;
+    background-color:#FF6565 ;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    margin-bottom: 40px;
+}
+.pentagon h2 {
+    font-size: 30px;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 3rem;
+  
+   
+}
+     /*contact-us */
+    
+     .contact-us h1 {
+        font-size: 40px;
+        font-weight: bold;
+        color: black;
+        text-align: center;
+        margin-top: 30px;
+     }
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    width: 100%;
+    height: 50vh;
+}
+
+form label {
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+    text-align: start;
+    margin-top: 20px;
+    
+}
+
+form input[type="text"], form input[type="email"] {
+    width: 25vw;
+    height: 2rem;
+    border: none;
+    border: 1px solid rgba(255, 219, 147, 0.133);
+    border-radius: 20px;
+    box-shadow: 0 -4px 0 0 #efcd93;
+    margin-top: 1rem;
+  
+}
+form button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 25px ;
+    margin-bottom: 30px ;
+    background-color: #FF6565;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    width: fit-content;
+    cursor: pointer;
+    text-align: center;
+    white-space: nowrap;
+    transition-delay: all 2s;
+
+}
+form button:hover {
+    transform: scale(1.2);
+}
+
+/* style --footer section*/
+
+.footer{
+    background-image: url(../images/footer_background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+.footer-1 {
+   display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px;
+
+}
+.footer-social-media img {
+    padding-right:20px ;
+    
+}
+
+.footer-2 p{
+    display: inline-block;
+    color: rgba(245, 245, 245, 0.35);
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+   font-size: 18px;
+}
+      
+     
+  /** resposive home page web site --- for mobile**/
+
+  
+  @media screen and ( max-width: 768px) {
+
+
+    header {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+    }
+
+    .logo img {
+        width: 100%;
+        margin-top: 20px;
+        text-align: center;
+    }
+    nav li {
+        display: block;
+        margin-right: 0;
+        margin-top: 20px;
+        list-style-type: none;
+    }
+    ul a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 15px;
+    }
+    ul a:hover{
+        color: #830707;
+    }
+    .hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        height: 100vh;
+        margin-top: 30vh;
+    }
+
+   .hero p {
+    
+    font-size: 3vw;
+    color: #fff;
+    text-align: center;
+    flex-wrap: nowrap;
+    }
+    
+    .hero-1 p {
+        font-size: 2vh;
+        font-family: bold ;
+        text-align: center;
+        width: 100px; 
+        margin: auto;
+        margin-top: 30vh;
+    }
+    
+    
+   .for-mobile {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:space-evenly;
+    align-items: center;
+
+   }
+   .for-mobile .button-icon{
+    background-color: transparent;
+    border: none;
+    width: 50px;
+    height: 6px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+    padding-top: 25px;
+   }
+   .for-mobile .menu-icon, .menu-icon::before,.menu-icon::after {
+        background-color: whitesmoke;
+        width: 50px;
+        height: 6px;
+        border-radius: 5px;
+        position:absolute;
+        transition: all 0.5s;
+       
+
+   }
+   .menu-icon::after, .menu-icon::before {
+    content: '';
+   }
+
+   .menu-icon::before {
+        transform: translate(-20px, -12px);
+    }
+    .menu-icon::after {
+        transform: translate(-20px, 12px);
+    }
+ 
+   .menu-icon:hover {
+        background-color: #575757;
+    }
+   .menu-icon {
+        cursor: pointer;
+    }
+    .button-1 {
+        text-align: center;
+        margin-top: 10vh;
+    }
+    .navbar {
+        display: none ;
+        transform-origin:top center;
+        animation-name: slide; 
+        animation-duration: 0.5s;
+        animation-timing-function: ease-in-out;
+        animation-fill-mode: forwards;
+    }
+    :is(.button-icon:active, .button-icon:focus-within) .menu-icon::before {
+        transform: translateX(-20px) rotate(45deg);
+     }
+      :is(.button-icon:active, .button-icon:focus-within) .menu-icon::after {
+        transform: translateX(-20px) rotate(-45deg);
+       } 
+    
+       :is(.button-icon:active, .button-icon:focus-within) .menu-icon {
+    background-color: transparent;
+       }
+    
+       :is(.button-icon:active, .button-icon:focus-within) nav {
+        
+           display: block;
+       } 
+     
+    
+ /** animation for button-burger */
+
+ @keyframes slide {
+    0% {
+        transform: translateY(0);
+    }
+    80% {
+        transform: translateY(1.2);
+    }
+    100% {
+        transform: translateY(1);
+    }
+  }
+
+  /* mobile--what we do section*/
+ .what-we-do-image {
+    display: block;
+    width: 100%;
+
+ }
+ .footer-1 {
+    display: flex;
+    flex-flow: column nowrap;
+
+ }
+ .footer-for-tablet {
+    display: none;
+ }
+
+    
+  }
+
+  /* tablet -homepage*/
+@media screen and (min-width: 768px ) and (max-width: 2000px) {
+    .button-icon .menu-icon {
+        display: inline;
+    }
+  
+    .footer-for-desk {
+        display: none;
+    }
+    .result-image {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+        gap: 100px;
+        margin-top: 10vh;
+    }
+    .what-we-do-image {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+        gap: 60px;
+       
+    
+
+
+}   
+}
