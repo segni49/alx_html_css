@@ -383,6 +383,9 @@ form button:hover {
     margin-bottom: 20px;
    font-size: 18px;
 }
+.menu-icon, .menu-icon::after, .menu-icon::before{
+    display:none;
+}
       
      
   /** resposive home page web site --- for mobile**/
@@ -555,7 +558,7 @@ form button:hover {
   /* tablet -homepage*/
 @media screen and (min-width: 768px ) and (max-width: 2000px) {
     .button-icon .menu-icon {
-        display: inline;
+        display: none;
     }
   
     .footer-for-desk {
